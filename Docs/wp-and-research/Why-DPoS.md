@@ -6,13 +6,13 @@ XinFin developed a scalable, secure and enterprise grade hybrid blockchain platf
 
 **XinFin's Consensus Mechanism**
 
-XinFin removed traditional high electrical power consumption based mining mechanism called PoW (Proof of Work). Instead XinFin adopted an improved consensus methodology called PoS (Proof of Stake), and is now slowly moving towards Delegated Proof of Stake (DPoS).
+XinFin removed traditional high electrical power consumption based mining mechanism called PoW (Proof of Work). Instead, XinFin adopted an improved consensus methodology called PoS (Proof of Stake), and is now slowly moving towards Delegated Proof of Stake (DPoS).
 
 To understand behind XinFin&#39;s decision to go for DPoW, we need to discuss briefly about the consensus mechanisms.
 
 **What is Consensus and how PoS, and DPoS are better than PoW**
 
-Consensus means a general agreement which is an important component of blockchain technology. Instead of keeping the accounts in a centralized computing machine, as in a bank or centralized online payment system, cryptocurrency uses distributed ledgers or blockchains to record information. A general agreement is needed to record information, such as the balance of every address, transactions, etc. on the blockchain.
+Consensus  means a general agreement which is an important component of blockchain technology. Instead of keeping the accounts in a centralized computing machine, as in a bank or centralized online payment system, cryptocurrency uses distributed ledgers or blockchains to record information. A general agreement is needed to record information, such as the balance of every address, transactions, etc. on the blockchain.
 
 Proof of Work or PoW relies on solving a cryptographic puzzle repetitively over all the nodes of the network. PoW involves burning very high amount of electrical energy.
 
