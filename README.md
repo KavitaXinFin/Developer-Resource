@@ -1,5 +1,5 @@
 The communities and posts below include content that has been curated by XinFin
-team members, community members and projects building on Xinfin Platform. While
+team members, community members and projects building on XinFin Platform. While
 some of these links include information specific to these projects, every
 resource also has information that can be generally applied to the Platform. We
 welcome Community to **”EDIT”** and simplify the content by adding more Tools,
