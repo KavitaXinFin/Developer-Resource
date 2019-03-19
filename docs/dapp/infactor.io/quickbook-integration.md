@@ -1,8 +1,8 @@
 ---
-title: Quickbook Integration
+Title: QuickBooks Integration
 ---
 
-**prerequisite**
+**Prerequisite**
 
  - Complete the set up of infactor.io on your local machine.
 
@@ -16,7 +16,7 @@ title: Quickbook Integration
 
 **2. Create an app**
 
-a. Select My apps and then Create an app
+a. Select My apps and then create an app
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-create-app.png"/>
@@ -30,7 +30,7 @@ b. Select the Keys tab to locate your Client ID and Client Secret
 
 c. Add the redirect Url
 
-Note : redirect url be exactly, http://localhost:3000/quickbook/connect
+Note : Redirect url should be exactly like this, http://localhost:3000/quickbook/connect
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-redirect-url.png"/>
@@ -38,13 +38,13 @@ Note : redirect url be exactly, http://localhost:3000/quickbook/connect
 
 **3. Add app configurations**
 
-- Copy content from example.env file to a new file .env in a project root directory
+- Copy content from example.env file to a new file .env in a project root directory.
 
-- Add the configuration details according to your project details as in step 2
+- Add the configuration details according to your project details as given in step 2.
 
-**4. Add invoices to your app on quikbook**
+**4. Add invoices to your app on QuickBooks**
 
-**5. Start infactor application on your localhost**
+**5. Start InFactor application on your localhost**
 
 - start application 
 
@@ -56,27 +56,27 @@ Note : redirect url be exactly, http://localhost:3000/quickbook/connect
     <img src="../../../developer-html/assets/images/quickbook/qbk-dash-empty.png"/>
 </p>
 
-**6. Sync Invoices with quickbook**
+**6. Sync Invoices with QuickBooks**
 
-a. Click on connect quickbook to sync quickbook invoices. It will open a new popup window to give authorisation. Add your quickbook login details.
+a. Click on connect quickbook to sync quickbook invoices. It will open a new popup window to give authorisation. Add your QuickBooks login details.
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-login.png"/>
 </p>
 
-b. Authorise infactor to access your company data(invoices) by clicking on connect button. close the popup window on response.
+b. Authorise InFactor to access your company data(invoices) by clicking on connect button. close the popup window on response.
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-loginauth.png"/>
 </p>
 
-**7. refresh the dashboard, all new invoices will appear on dashboard.**
+**7. Refresh the dashboard, all new invoices will appear on dashboard.**
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-dash-connect.png"/>
 </p>
 
-**8. Click on any invoice see the complete details**
+**8. Click on any invoice, see the complete details**
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-invoicedetails.png"/>
@@ -102,6 +102,6 @@ b. Authorise infactor to access your company data(invoices) by clicking on conne
 | Quickbook reference | Id | qbkInvoiceId | Invoice reference for quickbook |
 | Source | **\*\*** "quickbook" | source | source of invoice (ERP system identifier) |
 
-**\*** Field belongs Customer assosiated with Invoice
+**\*** Field belongs to customers associated with Invoice.
 
-**\*\*** No Quickbook fields are present, Instead default values are set to Infactor invoice
+**\*\*** No QuickBooks fields are present. Instead default values are set to Infactor Invoice.
